@@ -1,0 +1,21 @@
+# Ignore Maven build output
+target/
+*.jar
+*.war
+*.zip
+*.tar.gz
+
+# Ignore IDE files (IntelliJ, VS Code, etc.)
+.idea/
+*.iml
+.vscode/
+.settings/
+.classpath
+.project
+
+# Ignore OS specific files
+.DS_Store
+Thumbs.db
+
+# Ignore local configuration (don't share your database passwords!)
+application-local.properties
